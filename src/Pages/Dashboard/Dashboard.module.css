@@ -1,0 +1,122 @@
+.dashboardContainer {
+  margin: 0 auto;
+  max-width: 46rem;
+}
+
+.dashboardCreateTaskContainer {
+  margin: -1.6875rem 0 4rem 0;
+}
+
+.dashboardCreateTask {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboardCreateTaskInput {
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 0.5rem;
+  color: var(--gray-300);
+  height: 3.375rem;
+  line-height: 1.4;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  width: 40rem;
+}
+
+.dashboardCreateTaskButton {
+  align-items: center;
+  background: var(--blue-500);
+  border: 0;
+  border-radius: 0.5rem;
+  color: var(--gray-100);
+  display: flex;
+  font-size: 0.875rem;
+  height: 3.25rem;
+  justify-content: center;
+  width: 5.625rem;
+}
+
+.dashboardCreateTaskButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.dashboardCreateTaskButton:hover {
+  background: var(--blue-300);
+}
+
+.dashboardCreateTaskButton span {
+  padding-left: 0.5rem;
+  line-height: 0;
+}
+
+.dashboardTaskHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.dashboardTaskHeaderCreated {
+  align-items: center;
+  display: flex;
+}
+
+.dashboardTaskHeaderCreated p {
+  color: var(--blue-300);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.dashboardTaskHeaderCreated span {
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+}
+
+.dashboardTaskHeaderCompleted {
+  align-items: center;
+  display: flex;
+}
+
+.dashboardTaskHeaderCompleted p {
+  color: var(--purple-300);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.dashboardTaskHeaderCompleted span {
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboardContainer {
+    width: 25rem;
+  }
+
+  .dashboardCreateTaskInput {
+    width: 20rem;
+  }
+
+  .dashboardCreateTaskButton {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .dashboardContainer {
+    width: 21rem;
+  }
+
+  .dashboardCreateTaskInput {
+    width: 16rem;
+  }
+}

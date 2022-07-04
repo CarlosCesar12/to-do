@@ -1,0 +1,19 @@
+.withoutTaskContainer {
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.withoutTaskContainer span {
+  color: var(--gray-300);
+  font-weight: 700;
+  margin: 1rem 0 0.3rem 0;
+}
+
+.withoutTaskContainer p {
+  color: var(--gray-300);
+}
